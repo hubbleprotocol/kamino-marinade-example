@@ -14,7 +14,7 @@ async function main() {
                     'mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So') &&
             new Decimal(x.strategy.sharesIssued.toString()).greaterThan(0)
     );
-    console.log(msolStrategies.length);
+    console.log('Number of mSOL vaults:', msolStrategies.length);
     for (const msolStrategy of msolStrategies) {
         const holders = (await kamino.getStrategyHolders(msolStrategy)).filter((x) =>
             x.amount.greaterThan(0)
