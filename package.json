@@ -14,7 +14,7 @@
     "prettier": "^3.0.0"
   },
   "dependencies": {
-    "@hubbleprotocol/kamino-sdk": "2.0.53",
+    "@hubbleprotocol/kamino-sdk": "2.0.54",
     "decimal.js": "^10.4.3",
     "@solana/web3.js": "1.73.0",
     "@project-serum/borsh": "^0.2.5"

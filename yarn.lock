@@ -53,11 +53,6 @@
     toformat "^2.0.0"
     yargs "^17.0.1"
 
-"@colors/colors@^1.5.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.6.0.tgz#ec6cd237440700bc23ca23087f513c75508958b0"
-  integrity sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==
-
 "@coral-xyz/anchor@^0.28.1-beta.1":
   version "0.28.1-beta.1"
   resolved "https://registry.yarnpkg.com/@coral-xyz/anchor/-/anchor-0.28.1-beta.1.tgz#0f71a3b62e38527f50d4a80e1fb4d20ba95926e2"
@@ -204,10 +199,10 @@
   resolved "https://registry.yarnpkg.com/@hubbleprotocol/hubble-idl/-/hubble-idl-2.0.11.tgz#2b0f20f8f187b9d9634768274ce1ff014f69ed1b"
   integrity sha512-gDT8K8w+LA4IHNb70nk0HSfUN2HPIZJ7KGd59kEUHvz4s1uqXAJvvHU9dNVmqEGGO/pmd5tSB01SagSVVOX9fQ==
 
-"@hubbleprotocol/kamino-sdk@2.0.53":
-  version "2.0.53"
-  resolved "https://registry.yarnpkg.com/@hubbleprotocol/kamino-sdk/-/kamino-sdk-2.0.53.tgz#13cfefaf46e7ad9d3358309ac87f862a50d332c2"
-  integrity sha512-E9AJZcUn2+cZsvZpvcbu/oXCM8FoQRINGPIMPf9f13IcDYJGSw8VGquqfPkeGJeTv2xfj4YI/hOy14hUIv2wRA==
+"@hubbleprotocol/kamino-sdk@2.0.54":
+  version "2.0.54"
+  resolved "https://registry.yarnpkg.com/@hubbleprotocol/kamino-sdk/-/kamino-sdk-2.0.54.tgz#7bfae4d3034cc5104f1e9e382831d89d1358d817"
+  integrity sha512-Io/jy8ST8PFU/k8QbJUbzbLs3CRRFdj6qMbxgJ7o8ZPthlKvNwL3XWWHOCoZdRPuzmxUEzvTpY4fW+gNuLxljA==
   dependencies:
     "@hubbleprotocol/hubble-config" "^2.0.0"
     "@hubbleprotocol/hubble-idl" "^2.0.11"
@@ -218,7 +213,7 @@
     "@orca-so/whirlpool-sdk" "^0.4.2"
     "@project-serum/anchor" "^0.21.0"
     "@project-serum/serum" "^0.13.65"
-    "@raydium-io/raydium-sdk" "^1.3.0-beta.0"
+    "@raydium-io/raydium-sdk" "^1.3.1-beta.5"
     "@solana/buffer-layout" "^4.0.0"
     "@solana/wallet-adapter-base" "^0.9.20"
     "@types/mocha" "^10.0.1"
@@ -863,15 +858,13 @@
     tiny-invariant "^1.2.0"
     tslib "^2.3.1"
 
-"@raydium-io/raydium-sdk@^1.3.0-beta.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@raydium-io/raydium-sdk/-/raydium-sdk-1.3.0.tgz#faae1df16fa513754d9332d5b2ac7aa64a4d01c0"
-  integrity sha512-aNOQxjcyD7dVu2y0l12/dlnd/tXIzIBDqOVVz9r3P6rLEp0TQxfIm3LUc/CFrVBnRye1T08sXuOzlzr6X4KMTw==
+"@raydium-io/raydium-sdk@^1.3.1-beta.5":
+  version "1.3.1-beta.5"
+  resolved "https://registry.yarnpkg.com/@raydium-io/raydium-sdk/-/raydium-sdk-1.3.1-beta.5.tgz#85b97de063bc3e345bbef6aeb1b0d771ce29338a"
+  integrity sha512-0j6Eg+Oa0KqV8+7Qz5e9KXyKSo7cA189mdorhZGZoRjI8Q6o77ADT+4HTqPhP/1ext2YSDRikU4zOdyfw4sTVw==
   dependencies:
-    "@colors/colors" "^1.5.0"
     "@solana/buffer-layout" "^4.0.1"
     "@solana/spl-token" "^0.3.7"
-    "@solana/web3.js" "1.73.0"
     axios "^1.2.6"
     big.js "^6.2.1"
     bn.js "^5.2.1"
@@ -1123,9 +1116,9 @@
     superstruct "^0.14.2"
 
 "@solana/web3.js@^1.17.0", "@solana/web3.js@^1.20.0", "@solana/web3.js@^1.21.0", "@solana/web3.js@^1.24.1", "@solana/web3.js@^1.31.0", "@solana/web3.js@^1.32.0", "@solana/web3.js@^1.36.0", "@solana/web3.js@^1.37.0", "@solana/web3.js@^1.41.1", "@solana/web3.js@^1.42.0", "@solana/web3.js@^1.43.5", "@solana/web3.js@^1.50.1", "@solana/web3.js@^1.52.0", "@solana/web3.js@^1.66.0", "@solana/web3.js@^1.66.2", "@solana/web3.js@^1.68.0":
-  version "1.78.1"
-  resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.78.1.tgz#1b1023f81aa98f53ef45eaec642be11c0a0877f3"
-  integrity sha512-r0WZAYwCfVElfONP/dmWkEfw6wufL+u7lWojEsNecn9PyIIYq+r4eb0h2MRiJ3xkctvTN76G0T6FTGcTJhXh3Q==
+  version "1.78.2"
+  resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.78.2.tgz#ae976ce2f793077aa104ab455f9f75be86a3e2a4"
+  integrity sha512-oF+TmBZCt3eAEl4Meu3GO2p6G8wdyoKgXgTKzQpIUIhpMGA/dVQzyMFpKjCgoTU1Kx+/UF3gXUdsZOxQukGbvQ==
   dependencies:
     "@babel/runtime" "^7.22.6"
     "@noble/curves" "^1.0.0"
@@ -1133,7 +1126,7 @@
     "@solana/buffer-layout" "^4.0.0"
     agentkeepalive "^4.2.1"
     bigint-buffer "^1.1.5"
-    bn.js "^5.0.0"
+    bn.js "^5.2.1"
     borsh "^0.7.0"
     bs58 "^4.0.1"
     buffer "6.0.3"
